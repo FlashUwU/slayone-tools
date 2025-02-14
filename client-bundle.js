@@ -29098,6 +29098,7 @@ function replayPreviewRender() {
             domAbilities.refreshView();
           },
           render: function () {
+              replayPreviewRender();
             domMainContent.innerHTML &&
               domMainContent.innerHTML.length > 0 &&
               exports.homeScreen.collectSocialButtons(),
