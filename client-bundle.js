@@ -2483,7 +2483,7 @@ function replayPreviewRender() {
             function Game(map) {
               var _a;
               let newReplayFile = [];
-              replaylist.push(newReplayFile);
+              replayList.push(newReplayFile);
               (this.FIELD_SIZE =
                 0.06 * Math.sqrt(window.innerWidth * window.innerHeight)),
                 (this.FIELD_SIZE_BASE =
